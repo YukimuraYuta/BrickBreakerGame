@@ -1,0 +1,20 @@
+import javax.swing.JFrame;
+import javax.swing.ImageIcon;
+
+public class brickbreakergame {
+
+    public static void main(String args[]){
+
+        //Jframe is a gui frame in java
+
+        JFrame frame=new JFrame();  //creates a jframe
+        frame.setSize(500,500);  //sets frame size 
+        frame.setTitle("This is it");  //this sets title
+        frame.setVisible(true);  //creates output frame
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   //closes the frame after clicking "x" button
+        frame.setResizable(false);  //Stops resizing the file
+
+        //ImageIcon module used
+
+        ImageIcon image =new ImageIcon("Animação carro.png");
+        frame.setIconImage(image.getImage());
